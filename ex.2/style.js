@@ -7,10 +7,10 @@ const numeroComp = Math.floor(Math.random() *6 ) + 1
 console.log(numeroComp,numeroUser)
 let message = 'pareggio'
 
-if(numeroComp>numeroUser)
+if(numeroComp>numeroUser){
     message= 'hai perso'
-
-else(numeroComp<numeroUser)
+}
+else if(numeroComp<numeroUser){
     message= 'hai vinto'
-
+}
 console.log(message)
